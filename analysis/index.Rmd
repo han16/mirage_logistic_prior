@@ -3,9 +3,14 @@ title: "Home"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
-    toc: false
+    code_folding: hide
+    toc: true
 editor_options:
   chunk_output_type: console
+date: "2025-02-06"
 ---
 
-Welcome to my research website.
+
+1. [modeling logistic priors](logistic_priors.html)
+
+2. [simulations](simulations.html)
