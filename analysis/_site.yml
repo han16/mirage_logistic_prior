@@ -1,7 +1,7 @@
-name: "mirage_logistic_prior"
+name: mirage_logistic_prior
 output_dir: ../docs
 navbar:
-  title: "mirage_logistic_prior"
+  title: mirage_logistic_prior
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/han16/mirage_logistic_prior
 output:
   workflowr::wflow_html:
     toc: yes
